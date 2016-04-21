@@ -12,6 +12,7 @@
 		0619BEB91CC949FB00A47F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0619BEB71CC949FB00A47F3D /* Main.storyboard */; };
 		0619BEBB1CC949FB00A47F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0619BEBA1CC949FB00A47F3D /* Assets.xcassets */; };
 		0619BEBE1CC949FB00A47F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0619BEBC1CC949FB00A47F3D /* LaunchScreen.storyboard */; };
+		0619BEC61CC94B9100A47F3D /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0619BEC51CC94B9100A47F3D /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0619BEBA1CC949FB00A47F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0619BEBD1CC949FB00A47F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0619BEBF1CC949FB00A47F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0619BEC51CC94B9100A47F3D /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		0619BEA71CC949FB00A47F3D = {
 			isa = PBXGroup;
 			children = (
+				0619BEC51CC94B9100A47F3D /* TipCalculatorModel.swift */,
 				0619BEB21CC949FB00A47F3D /* Tip Calculator */,
 				0619BEB11CC949FB00A47F3D /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0619BEC61CC94B9100A47F3D /* TipCalculatorModel.swift in Sources */,
 				0619BEB61CC949FB00A47F3D /* ViewController.swift in Sources */,
 				0619BEB41CC949FB00A47F3D /* AppDelegate.swift in Sources */,
 			);
@@ -251,7 +255,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Tip-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -262,7 +266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Tip Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Tip-Calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tip-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
